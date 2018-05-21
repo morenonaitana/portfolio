@@ -1,0 +1,4 @@
+ErrorDocument 404 /404.html
+
+SetEnv PHP_VER 5
+

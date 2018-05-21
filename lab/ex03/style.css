@@ -1,0 +1,97 @@
+body {
+	background: #1e1e1e;
+	color: #ffffff;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#container {
+	width: 960px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 64px;
+	margin-bottom: 64px;
+	border: 1px solid #ffffff;
+	overflow: hidden;
+	position: relative;
+	background: url(img/paysage.jpg);
+}
+
+#wrap {
+	width: 600px;
+	height: 350px;
+	background: url(img/terrain.png) no-repeat;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -300px;
+	margin-top: -100px;
+	/* overflow: hidden; */
+	/* border: 1px solid red; */
+}
+
+
+
+.cercle {
+	width: 88px;
+	height: 92px;
+	background: url(img/taupe.png) no-repeat;
+	position: absolute;
+	cursor: pointer;
+	opacity: 0;
+}
+
+#my-timer{
+	width: 400px;
+	background: #2d2d2d; 
+	margin:  0 auto;
+	text-align: center;
+	padding:5px 0px 5px 0px;
+	margin-top: 64px;
+}
+
+.test {
+	width: 100px;
+	height: 100px;
+	background: white;
+}
+
+#end{
+	background: #2d2d2d;
+	opacity: 0.8;
+	color: #ffffff;
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	margin-top: -150px;
+	margin-left: -200px;
+	display: none;
+}
+
+.points {
+	margin-top: 24px;
+	font-size:56px;
+}
+
+.retry {
+	background: #ffffff;
+	color: #2d2d2d;
+	display: block;
+	cursor: pointer;
+	width: 350px;
+	height: 100px;
+	margin-left: 25px;
+	margin-top: 75px;
+}
+
+.retry:hover {
+	background: #A65353;
+	color: #ffffff;
+}
+
+.retry p {
+	font-size: 40px;
+	padding-top: 25px;
+}

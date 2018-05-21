@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'MeteoconsRegular';
+    src: url('meteocons-webfont.eot');
+    src: url('meteocons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('meteocons-webfont.woff') format('woff'),
+         url('meteocons-webfont.ttf') format('truetype'),
+         url('meteocons-webfont.svg#MeteoconsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.icon:before {
+	font-family: 'meteoconsRegular';
+	content: attr(data-icon);
+}
+
+.icon-weather {
+	font-size: 5em;
+}
+
+#current_temp {
+	font-size: 3em;
+}
+
+#current_summary {
+	font-size: 1.5em;
+}
+
+.ui-content {
+	text-align: center;
+    text-shadow: none;
+    background-color: #f5f5f5;
+    padding: 2em;
+}
+
+.ui-icon-bars {
+    margin-top: 16px !important;
+    margin-left: 16px !important;
+    border: none !important;
+    background: none !important;
+    box-shadow: none;
+}
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    background-color: #328BD9;
+    color: white;
+    padding: 16px 0;
+}
+
+.ui-page-theme-a .ui-btn {
+    background-color: white;
+    color: #000000;
+    text-shadow: none;
+}
+
+.ui-btn {
+    padding: 1em;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+    text-shadow: none;
+}
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    border: none !important;
+}
+
+.ui-alt-icon.ui-btn:after {
+    background-color: transparent;
+}

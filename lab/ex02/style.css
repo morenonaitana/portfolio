@@ -1,0 +1,59 @@
+body {
+	background: #1e1e1e;
+	color: #ffffff;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#container {
+	width: 900px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 64px;
+	margin-bottom: 64px;
+	border: 1px solid #ffffff;
+	background: url(img/background-mouche.jpg) no-repeat;
+	background-color: #488F85;
+	/* overflow: hidden; */
+	position: relative;
+}
+
+#wrap {
+	width: 600px;
+	height: 200px;
+}
+
+.cercle {
+width: 100px;
+height: 57px;
+/*
+background-color: #ffffff;
+border: 1px solid #ffffff;
+*/
+background: url(img/mouche.png) no-repeat;
+/*
+-webkit-border-radius: 30px;
+-khtml-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+*/
+position: absolute;
+cursor: pointer;
+left: 50%;
+top: 50%;
+margin-left: -50px;
+margin-top: -28px;
+}
+
+
+.arrow {
+	width:50px;
+	height: 75px;
+	display: block;
+	background: url(img/arrow.png) no-repeat;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -22px;
+	margin-top: -125px;
+	text-indent: -99999px;
+}

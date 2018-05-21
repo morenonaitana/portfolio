@@ -1,0 +1,35 @@
+body {
+	background: #ffdc00;
+	font-family: Helvetica, arial, sans-serif;
+}
+
+#container {
+	width: 660px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: green;
+	font-size: 56px;
+	text-align: center;
+	line-height: 56px;
+	padding: 0;
+	padding-bottom: 32px;
+	 -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: red;
+}
+
+#miguel {
+	margin: 0 auto;
+	background: green;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#sunbrero {
+	width: 230px;
+	height: 122px;
+	display: block;
+	background: url(img/sunbrero2.png) no-repeat;
+	margin: 0 auto;
+}
